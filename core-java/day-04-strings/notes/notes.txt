@@ -1,0 +1,83 @@
+# Java Strings Deep Dive
+
+## What is String?
+
+String is a sequence of characters.
+
+In Java:
+String is an object (not primitive)
+
+---
+
+## String Creation
+
+String s1 = "hello";
+String s2 = new String("hello");
+
+---
+
+## String Pool (VERY IMPORTANT)
+
+Java stores strings in a special memory area called:
+
+👉 String Constant Pool (SCP)
+
+Example:
+String a = "java";
+String b = "java";
+
+Both refer to SAME object in pool.
+
+---
+
+## Why String Pool?
+
+- Memory optimization
+- Avoid duplicate objects
+
+---
+
+## Immutability
+
+String is immutable → cannot be changed after creation
+
+Example:
+String s = "hello";
+s.concat("world");
+
+👉 original string not changed
+
+---
+
+## Why Immutable?
+
+- Security
+- Thread-safe
+- Caching
+- Performance optimization
+
+---
+
+## String vs StringBuilder vs StringBuffer
+
+String:
+- Immutable
+- Slow for modification
+
+StringBuilder:
+- Mutable
+- Fast
+- Not thread-safe
+
+StringBuffer:
+- Mutable
+- Thread-safe
+- Slower than StringBuilder
+
+---
+
+## When to use what?
+
+- String → read-only
+- StringBuilder → heavy modifications
+- StringBuffer → multithreading

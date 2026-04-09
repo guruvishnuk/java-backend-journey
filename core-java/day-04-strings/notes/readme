@@ -1,0 +1,19 @@
+# Day 4 - Strings Deep Dive
+
+## Topics Covered
+- String Pool
+- Immutability
+- String vs StringBuilder vs StringBuffer
+
+## Key Learnings
+- Strings are immutable
+- String pool saves memory
+- Use StringBuilder for performance
+
+## Interview Points
+- Difference between == and equals()
+- Why String is immutable
+- When to use StringBuilder
+
+## Status
+✅ Completed
