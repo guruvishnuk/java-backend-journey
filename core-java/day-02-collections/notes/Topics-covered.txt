@@ -1,0 +1,20 @@
+# Day 2 - Collections Deep Dive
+
+## Topics Covered
+- List (ArrayList)
+- Set (HashSet)
+- Map (HashMap)
+
+## Key Learnings
+- Difference between List, Set, Map
+- Internal working of HashMap
+- Collision handling
+- Load factor and rehashing
+
+## Real Use Case
+- Data storage in backend
+- Frequency counting
+- Caching
+
+## Status
+✅ Completed
