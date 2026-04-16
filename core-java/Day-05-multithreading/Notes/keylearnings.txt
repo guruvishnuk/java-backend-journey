@@ -1,0 +1,6 @@
+## Key Learnings
+
+- Threads enable parallel execution
+- Runnable is better than Thread class
+- Synchronization prevents data inconsistency
+- Race conditions occur with shared data

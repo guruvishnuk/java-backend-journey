@@ -1,0 +1,50 @@
+# Multithreading in Java
+
+## What is Thread?
+
+Thread is the smallest unit of execution in a program.
+
+---
+
+## Process vs Thread
+
+Process:
+- Independent program
+- Heavyweight
+
+Thread:
+- Part of process
+- Lightweight
+- Shares memory
+
+---
+
+## Why Multithreading?
+
+- Better performance
+- Parallel execution
+- Efficient CPU usage
+
+---
+
+## Thread Lifecycle
+
+- New
+- Runnable
+- Running
+- Waiting
+- Terminated
+
+---
+
+## Race Condition
+
+When multiple threads access shared data → unexpected result
+
+---
+
+## Synchronization
+
+Used to control access to shared resources
+
+Prevents race condition
