@@ -1,0 +1,45 @@
+🔥 1. What is a Thread?
+✅ Answer:
+
+A thread is the smallest unit of execution inside a process that allows parallel execution of tasks.
+
+🔥 2. Process vs Thread?
+✅ Answer:
+Process	Thread
+Heavyweight	Lightweight
+Separate memory	Shared memory
+Slow	Fast
+🔥 3. Why use Runnable over Thread?
+✅ Answer:
+Java doesn’t support multiple inheritance
+Runnable allows extending another class
+Better design (separation of logic)
+
+👉 Killer line:
+“Runnable provides better flexibility and is preferred in real applications.”
+
+🔥 4. What is Race Condition?
+✅ Answer:
+
+Race condition occurs when multiple threads access and modify shared data simultaneously, leading to inconsistent results.
+
+🔥 5. What is Synchronization?
+✅ Answer:
+
+Synchronization is a mechanism to control access to shared resources so that only one thread can access it at a time.
+
+🔥 6. What happens without synchronization?
+✅ Answer:
+Data inconsistency
+Wrong results
+Hard-to-debug issues
+🔥 7. Why is count++ not safe?
+✅ Deep Answer:
+
+Because it is 3 steps:
+
+Read value
+Increment
+Write back
+
+👉 Multiple threads can overlap here → wrong result

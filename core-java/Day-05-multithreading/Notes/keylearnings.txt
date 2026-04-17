@@ -4,3 +4,14 @@
 - Runnable is better than Thread class
 - Synchronization prevents data inconsistency
 - Race conditions occur with shared data
+
+
+## Tasks Completed
+- Created multiple threads (numbers + letters)
+- Demonstrated race condition
+- Fixed using synchronized
+
+## Key Learnings
+- Multithreading leads to parallel execution
+- Shared data must be protected
+- Synchronization ensures consistency
